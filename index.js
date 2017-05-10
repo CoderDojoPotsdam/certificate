@@ -23,7 +23,6 @@ window.addEventListener("load", waitForInput);
 
 function updateImage() {
   var inputs = document.getElementsByClassName("update");
-  var url = "coderdojocertificate.svg";
   var query = [];
   for (var i = 0; i < inputs.length; i += 1) {
     var input = inputs[i];
@@ -33,11 +32,15 @@ function updateImage() {
       query.push(encodeURIComponent(id) + "=" + encodeURIComponent(text));
     }
   }
+  var query_string = "";
   if (query.length > 0) {
-    url += "?" + query.join("&");
+    query_string = "?" + query.join("&");
   }
   var preview = document.getElementById("preview");
-  preview.src = url;
-  var preview_link = document.getElementById("preview-link");
-  preview_link.href = url;
+  preview.src = "coderdojocertificate.svg" + query_string;
+  var preview_links = document.getElementsByClassName("preview-link");
+  for(var i = 0; i < preview_links.length; i += 1) {
+    var preview_link = preview_links[i];
+    preview_link.href = preview_link.attributes["src"].value + query_string;
+  }
 }
