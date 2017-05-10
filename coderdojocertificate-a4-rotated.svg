@@ -49,7 +49,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.90509668"
-     inkscape:cx="226.88464"
+     inkscape:cx="19.72445"
      inkscape:cy="492.90461"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
@@ -77,14 +77,25 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title>CoderDojo Certificate</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="paper"
-     style="display:inline"
+     style="display:none"
      transform="translate(-152.4953,155.50626)">
     <rect
        transform="matrix(0,1,-1,0,-1.7006807,-1.4345434)"
@@ -195,27 +206,27 @@
       <image
          sodipodi:absref="C:\Users\cheche\Documents\programmiertes\certificate\logo-small.png"
          xlink:href="logo-small.png"
-         width="57.500786"
-         height="57.500786"
-         preserveAspectRatio="none"
-         style="display:inline;image-rendering:optimizeQuality"
-         id="logo-small"
-         x="275.35635"
+         inkscape:label="#image4781"
          y="504.9501"
-         inkscape:label="#image4781" />
+         x="275.35635"
+         id="logo-small"
+         style="display:inline;image-rendering:optimizeQuality"
+         preserveAspectRatio="none"
+         height="57.500786"
+         width="57.500786" />
     </g>
     <image
        sodipodi:absref="C:\Users\cheche\Documents\programmiertes\certificate\coderdojo-logo-light-bg.png"
        xlink:href="coderdojo-logo-light-bg.png"
-       transform="matrix(0,1,-1,0,0,0)"
-       width="358.02335"
-       height="101.125"
-       preserveAspectRatio="none"
-       style="image-rendering:optimizeQuality"
-       id="logo-big"
-       x="193.09824"
+       inkscape:label="#image4818"
        y="-786.78973"
-       inkscape:label="#image4818" />
+       x="193.09824"
+       id="logo-big"
+       style="image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="101.125"
+       width="358.02335"
+       transform="matrix(0,1,-1,0,0,0)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
