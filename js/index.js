@@ -71,7 +71,7 @@ function setDownloadURI() {
 function updateImage() {
   var query_string = generateQueryString();
   var preview = document.getElementById("preview");
-  preview.src = "../img/coderdojocertificate.svg" + query_string;
+  preview.src = "img/coderdojocertificate.svg" + query_string;
   var preview_links = document.getElementsByClassName("preview-link");
   for(var i = 0; i < preview_links.length; i += 1) {
     var preview_link = preview_links[i];
