@@ -1,4 +1,7 @@
 # certificate
+
+[![](http://firsttimers.quelltext.eu/repository/coderdojopotsdam/certificate.svg)](http://firsttimers.quelltext.eu/repository/coderdojopotsdam/certificate.html)
+
 A certificate generator for CoderDojos
 
 You can [try it our in the Browser][web].
