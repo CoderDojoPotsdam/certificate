@@ -3,125 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>CoderDojo Certificate Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" async="" src="index.js"></script>
     <script type="text/javascript" async="" src="cookies.js"></script>
-    
-    <style type="text/css">
-            
-            body {
-                margin:0;
-                padding:0;
-                background-color: #EA2F4C;
-                font-size:110%;
-                font-family: sans-serif;
-                overflow-x: hidden;
-            }
-            
-            #headerDiv {
-                color:white;
-                background-color:#222;
-                padding:10px;
-                text-align: center;
-                width:100%;
-            }
-            
-            #infoDiv {
-                width:80%;
-                margin:40px auto;
-                text-align: center;
-                font-size: 150%;
-                color:white;
-                text-shadow: 2px 2px 9px black;
-            }
-            
-            .variables {
-                width:80%;
-                margin:0 auto;
-            }
-            
-            input {
-                width:100%;
-                box-sizing: border-box;
-                padding: 12px 20px;
-                margin:0;
-                border-radius:4px;
-                border:1px solid grey;
-                outline: none;
-            }
-            
-            textarea {
-                width:100%;
-                box-sizing: border-box;
-                padding: 12px 20px;
-                margin:0;
-                border-radius: 4px;
-                outline: none;
-                resize: vertical;
-            }
-            
-            .result {
-                width:80%;
-                margin:20px auto;
-            }
-            
-            #footerDiv {
-                width:100%;
-                margin:0 auto;
-                text-align: center;
-                background-color:#222;
-                padding:10px;
-            }
-            
-            a {
-                margin:10px;
-                color:white;
-            }
-        </style>
-    
   </head>
   <body>
-   
+
     <div id="headerDiv" class="text-center">
       <h1 id="header">CoderDojo Certificate Generator</h1>
     </div>
-        
+
     <div id="infoDiv">
        <p id="infoText">Fill out the input boxes below to create your very own certificate!</p>
     </div>
- 
-    <div class="variables">      
-      <div class="variable">        
-        <p>Certificate Header:</p><input type="text" id="text-cert" class="update" value />      
-       </div>      
-      <div class="variable">          
-          <p>Name:</p><input type="text" id="text-name" class="update" value />
-      </div>
-      <div class="variable">
-          <p>(Expandable) Text:</p><textarea id="text-achieve" class="update"></textarea>
-      </div>
-      <div class="variable">
-        <p>Diploma:</p><input type="text" id="text-diploma" class="update" value />      
-      </div>      
-      <div class="variable">
-        <p>Champion:</p><input type="text" id="text-champion" class="update" value />
-      </div>
-      <div class="variable">
-        <p>Big Logo:</p><input type="text" id="logo-big" class="update" value />
-      </div>
-      <div class="variable">
-         <p>Logo in Medal:</p><input type="text" id="logo-small" class="update" value />
+
+    <div id="left-side">
+      <div class="variables">
+        <div class="variable">
+          <p>Certificate Header:</p><input type="text" id="text-cert" class="update" value />
+         </div>
+        <div class="variable">
+            <p>Name:</p><input type="text" id="text-name" class="update" value />
+        </div>
+        <div class="variable">
+            <p>(Expandable) Text:</p><textarea id="text-achieve" class="update"></textarea>
+        </div>
+        <div class="variable">
+          <p>Diploma:</p><input type="text" id="text-diploma" class="update" value />
+        </div>
+        <div class="variable">
+          <p>Champion:</p><input type="text" id="text-champion" class="update" value />
+        </div>
+        <div class="variable">
+          <p>Big Logo:</p><input type="text" id="logo-big" class="update" value />
+        </div>
+        <div class="variable">
+           <p>Logo in Medal:</p><input type="text" id="logo-small" class="update" value />
+        </div>
       </div>
     </div>
-    
-    <div class="result">
-        <a href="#" id="save-link">Save Settings</a>
-        <label>Format:</label><a class="preview-link" src="coderdojocertificate.svg" target="_blank">A4 landscape</a>
-        <a class="preview-link" src="coderdojocertificate-a4-rotated.svg" target="_blank">A4 Portrait</a>
-        <iframe width="100%" src="coderdojocertificate.svg" scrolling="no" id="preview"></iframe>
+
+    <div id="right-side">
+      <div class="result">
+          <a href="#" id="save-link">Save Settings</a>
+          <label>Format:</label><a class="preview-link" src="img/coderdojocertificate.svg" target="_blank">A4 landscape</a>
+          <a class="preview-link" src="img/coderdojocertificate-a4-rotated.svg" target="_blank">A4 Portrait</a>
+          <iframe width="100%" src="img/coderdojocertificate.svg" scrolling="no" id="preview"></iframe>
+      </div>
     </div>
+
     <div id="footerDiv">
       <a href="https://github.com/CoderDojoPotsdam/certificate">Source Code, your contributions welcome</a>
     </div>
-    
+
   </body>
 </html>
