@@ -9,6 +9,8 @@ Some features:
 - Cookies save your configuration - no need to type everything again
 - You can pass the image link on to coder so that they can print it at home
 
+If you like to contribute, get in contact or write about your ideas, you can do so in the [issues](https://github.com/CoderDojoPotsdam/certificate/issues) of this project.
+
 Editing Images
 --------------
 
