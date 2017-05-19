@@ -8,7 +8,7 @@ function waitForInput() {
   var queries = getQueries();
   var inputs = document.getElementsByClassName("update");
   var validQuery = false;
-  
+
   // check if there are any valid items in the query string
   // and then update based on that
   for (var i = 0; i < inputs.length; i += 1) {
@@ -22,7 +22,7 @@ function waitForInput() {
       return function(){updateInput(input)}
     }(input);
   }
-  
+
   // if the query string had no valid items, use the cookie
   if (validQuery==false) {
     for (var i = 0; i < inputs.length; i += 1) {
@@ -42,7 +42,7 @@ function getQueries() {
   var qs = document.location.search;
   var tokens, re = /[?&]?([^=]+)=([^&]*)/g;
   qs = qs.split("+").join(" ");
-  
+
   var queries = {};
   while (tokens = re.exec(qs)) {
     var id = decodeURIComponent(tokens[1]);
@@ -59,7 +59,7 @@ window.addEventListener("load", waitForInput);
 function setDownloadURI() {
   var queryString = generateQueryString();
   var nameOfUser = document.getElementById('text-name').value || 'page';
-  
+
   var content = "<!DOCTYPE html><html><script>document.location=\"https://coderdojopotsdam.github.io/certificate/index.html" + queryString +
     "\"</script></head></html>";
   var uri = "data:text/html," + encodeURIComponent(content);
@@ -71,7 +71,7 @@ function setDownloadURI() {
 function updateImage() {
   var query_string = generateQueryString();
   var preview = document.getElementById("preview");
-  preview.src = "coderdojocertificate.svg" + query_string;
+  preview.src = "../img/coderdojocertificate.svg" + query_string;
   var preview_links = document.getElementsByClassName("preview-link");
   for(var i = 0; i < preview_links.length; i += 1) {
     var preview_link = preview_links[i];
