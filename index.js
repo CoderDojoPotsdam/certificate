@@ -58,11 +58,13 @@ window.addEventListener("load", waitForInput);
 //link "Save Settings" to the URI
 function setDownloadURI() {
   var queryString = generateQueryString();
+  var nameOfUser = document.getElementById('text-name').value || 'page';
   
   var content = "<!DOCTYPE html><html><script>document.location=\"https://coderdojopotsdam.github.io/certificate/index.html" + queryString +
     "\"</script></head></html>";
   var uri = "data:text/html," + encodeURIComponent(content);
   var saveLink = document.getElementById("save-link");
+  saveLink.download = "settings-" + nameOfUser + ".html";
   saveLink.href=uri;
 }
 
