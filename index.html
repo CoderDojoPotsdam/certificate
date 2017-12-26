@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" async="" src="js/index.js"></script>
     <script type="text/javascript" async="" src="js/cookies.js"></script>
+    <script type="text/javascript" async="" src="https://printathpi.quelltext.eu/printathpi.js"></script>
+    <!--<script type="text/javascript" async="" src="http://localhost:8001/printathpi.js"></script>-->
+    <script type="text/javascript" async="" src="js/print.js"></script>
   </head>
   <body>
 
@@ -48,6 +51,7 @@
           <a href="#" id="save-link">Save Settings</a>
           <label>Format:</label><a class="preview-link" src="img/coderdojocertificate.svg" target="_blank">A4 landscape</a>
           <a class="preview-link" src="img/coderdojocertificate-a4-rotated.svg" target="_blank">A4 Portrait</a>
+          <a id="printathpi-link" href="javascript:printSVGCertificateAtHPI()">Print@HPI</a>
           <iframe width="100%" src="img/coderdojocertificate.svg" scrolling="no" id="preview"></iframe>
       </div>
     </div>
