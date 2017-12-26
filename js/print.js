@@ -35,6 +35,7 @@ function printSVGCertificateAtHPI() {
   }
   var documents = {};
   documents[name] = content;
+  PRINT_AT_HPI_ENDPOINT = "https://printathpi.quelltext.eu/print";
   printathpi(documents, null, null, onPrint, onError);
 }
 
