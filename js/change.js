@@ -7,6 +7,8 @@ var ID_TEXT_ACHIEVEMENT = "text-achieve";
 var ID_TEXT_DIPLOMA = "text-diploma";
 var ID_TEXT_CHAMPION = "text-champion";
 
+var IDS = [ID_LOGO_BIG, ID_LOGO_SMALL, ID_TEXT_CERTIFICATE, ID_TEXT_NAME, ID_TEXT_ACHIEVEMENT, ID_TEXT_DIPLOMA, ID_TEXT_CHAMPION];
+
 function changeImage(id, url) {
   var image_tag = document.getElementById(id);
   image_tag.attributes["xlink:href"].value = url;
@@ -34,25 +36,39 @@ function changeText(id, text) {
 }
 
 
+function updateFromSpecification(specification) {
+  for (var i = 0; i < IDS.length; i+= 1) {
+    var id = IDS[i];
+    try {
+      var content = specification[id];
+      if (content !== undefined) {
+        if (id.startsWith("text-")) {
+          changeText(id, content);
+        } else if (id.startsWith("logo")) {
+          changeImage(id, content);
+        }
+      }
+    } catch(e) {
+      alert(e);
+      throw e;
+    }
+  }
+}
+
+
 function updateFromQuery() {
   // from http://stackoverflow.com/a/1099670/1320237
   var qs = document.location.search;
   var tokens, re = /[?&]?([^=]+)=([^&]*)/g;
+  var specification = {};
   qs = qs.split("+").join(" ");
-
+  
   while (tokens = re.exec(qs)) {
     var id = decodeURIComponent(tokens[1]);
     var content = decodeURIComponent(tokens[2]);
-    try {
-      if (id.startsWith("text-")) {
-        changeText(id, content);
-      } else if (id.startsWith("logo")) {
-        changeImage(id, content);
-      }
-    } catch(e) {
-      alert(e);
-    }
+    specification[id] = content;
   }
+  updateFromSpecification(specification);
 }
 window.onload = updateFromQuery;
 
