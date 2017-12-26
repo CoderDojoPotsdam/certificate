@@ -96,3 +96,18 @@ function generateQueryString() {
   }
   return query_string;
 }
+
+function generateSpecification() {
+  var inputs = document.getElementsByClassName("update");
+  var specification = {};
+  for (var i = 0; i < inputs.length; i += 1) {
+    var input = inputs[i];
+    var id = input.id;
+    var text = input.value;
+    if (text != "") {
+      specification[id] = text;
+    }
+  }
+  return specification;
+}
+
