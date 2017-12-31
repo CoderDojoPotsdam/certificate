@@ -4,7 +4,7 @@
 
 A certificate generator for CoderDojos
 
-You can [try it our in the Browser][web].
+You can [**try it out in the Browser**][web].
 
 Some features:
 - Custom CoderDojo logo (small and big)
