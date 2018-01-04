@@ -12,7 +12,7 @@ var IDS = [ID_LOGO_BIG, ID_LOGO_SMALL, ID_TEXT_CERTIFICATE, ID_TEXT_NAME, ID_TEX
 function changeImage(id, url) {
   var image_tag = document.getElementById(id);
   image_tag.attributes["xlink:href"].value = url;
-  image_tag.attributes["preserveAspectRatio"].value = "meet";
+  image_tag.attributes["preserveAspectRatio"].value = "xMidYMid meet"; // https://developer.mozilla.org/de/docs/Web/SVG/Attribute/preserveAspectRatio
   storeImageContentForPrinting(image_tag);
 }
 
