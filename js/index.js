@@ -111,3 +111,9 @@ function generateSpecification() {
   return specification;
 }
 
+function changeText(id, text) {
+  var element = document.getElementById(id);
+  element.value = text;
+  updateImage();
+}
+

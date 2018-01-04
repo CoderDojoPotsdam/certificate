@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="184.44609"
+   height="214.51387"
+   id="svg4299"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="soldering.svg"
+   inkscape:export-filename="/home/user/certificate/img/soldering.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs4321" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1036"
+     id="namedview4319"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.6445993"
+     inkscape:cx="105.53704"
+     inkscape:cy="165.57478"
+     inkscape:window-x="4"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4299" />
+  <rect
+     style="fill:#d5ded5"
+     id="imagebot_17"
+     transform="matrix(0.51500008,-0.85719013,0.83082056,0.55654038,0,0)"
+     rx="19.029997"
+     ry="19.500986"
+     height="22.243984"
+     width="93.888985"
+     y="155.4147"
+     x="-34.42268"
+     label="Calque 1" />
+  <path
+     style="fill:#202c20"
+     inkscape:connector-curvature="0"
+     id="imagebot_16"
+     d="m 177.33166,21.1398 c 7.26,-22.3339995 -3.76,-22.3109995 4.15,-42.267 7.92,-19.956 20.55,-30.141 27.51,-37.557 -25.07,-10.856 10.51,-12.223 5.29,2.915 -15.16,15.567 -19.59,17.601 -27.51,37.557 -7.91,19.9560005 4.64,22.8670005 -4.14,42.262 -8.95,19.76 -2.62,1.9 -4.08,1.1 -1.47,-0.81 -8.43,18.2 -1.22,-4.01 z"
+     label="Calque 1" />
+  <path
+     style="fill:#231b14"
+     inkscape:connector-curvature="0"
+     id="imagebot_15"
+     d="m 159.73166,41.4298 15.58,-19.88 c 1.22,-1.96 3.85,-2.54 5.91,-1.29 2.06,1.24 2.74,3.83 1.52,5.79 l -8.98,20.35 c -1.22,1.97 -3.08,-3.11 -6.83,-4.62 -5.6,-2.24 -8.42,1.61 -7.2,-0.35 z"
+     label="Calque 1" />
+  <path
+     style="fill:#007100"
+     inkscape:connector-curvature="0"
+     id="imagebot_14"
+     d="M 80.323498,131.37996 C 81.175264,142.76128 63.891406,153.30528 41.719104,154.93054 19.546802,156.5558 0.88194268,148.64689 0.03017708,137.26556 -0.82158848,125.88423 16.462276,115.34023 38.634578,113.71498 c 22.172303,-1.62526 40.837155,6.28365 41.68892,17.66498 z"
+     label="Calque 1" />
+  <path
+     style="fill:#009f00"
+     inkscape:connector-curvature="0"
+     id="imagebot_13"
+     d="M 80.323498,128.96496 C 81.175264,140.34628 63.891406,150.89028 41.719104,152.51554 19.546802,154.1408 0.88194268,146.23189 0.03017708,134.85056 -0.82158848,123.46923 16.462276,112.92523 38.634578,111.29998 c 22.172303,-1.62526 40.837155,6.28365 41.68892,17.66498 z"
+     label="Calque 1" />
+  <path
+     style="fill:#007100"
+     inkscape:connector-curvature="0"
+     id="imagebot_12"
+     d="M 83.983498,177.26396 C 84.835264,188.64528 67.551406,199.18928 45.379104,200.81454 23.206802,202.4398 4.5419427,194.53089 3.6901771,183.14956 2.8384115,171.76823 20.122276,161.22423 42.294578,159.59898 c 22.172303,-1.62526 40.837155,6.28365 41.68892,17.66498 z"
+     label="Calque 1" />
+  <path
+     style="fill:#009f00"
+     inkscape:connector-curvature="0"
+     id="imagebot_11"
+     d="M 83.627498,174.55196 C 84.479264,185.93328 67.195406,196.47728 45.023104,198.10254 22.850802,199.7278 4.1859427,191.81889 3.3341771,180.43756 2.4824115,169.05623 19.766276,158.51223 41.938578,156.88698 c 22.172303,-1.62526 40.837155,6.28365 41.68892,17.66498 z"
+     label="Calque 1" />
+  <path
+     style="fill:#a7b6d1"
+     inkscape:connector-curvature="0"
+     id="imagebot_10"
+     d="m 77.161657,173.6798 c -0.22,12.08 -13.226,16.55 -31.57,18.85 -18.344,2.3 -35.478,-3.74 -36.0980004,-18.26 -0.579,-13.29 -1.152,-18.17 -1.681,-25.62 13.3490004,5.77 38.2960004,13.6 67.7790004,-5.49 0.5,15.76 1.07,24.81 1.51,28.01 4.51,2.24 42.860003,15.11 49.560003,15.56 1.35,0.09 0.78,2.64 -0.34,2.51 -13.44,-1.57 -45.800003,-14.87 -45.740003,-14.08 0.07,0.79 -3.47,-1.87 -3.42,-1.48 z"
+     label="Calque 1" />
+  <rect
+     style="fill:#f68931"
+     id="imagebot_9"
+     transform="matrix(0.53712976,-0.84349963,0.84849063,0.5292104,0,0)"
+     rx="17.984007"
+     ry="22.052982"
+     height="25.760981"
+     width="42.34502"
+     y="154.10469"
+     x="-59.767021"
+     label="Calque 1" />
+  <path
+     style="fill:#dd7623"
+     inkscape:connector-curvature="0"
+     id="imagebot_8"
+     d="m 119.38906,125.35073 c 6.33284,4.21611 8.65137,11.77573 5.17848,16.88493 -3.47289,5.1092 -11.422,5.83311 -17.75485,1.61701 -6.33284,-4.21611 -8.651377,-11.77573 -5.17848,-16.88493 3.47289,-5.10921 11.422,-5.83312 17.75485,-1.61701 z"
+     label="Calque 1" />
+  <path
+     style="fill:#f9872b"
+     inkscape:connector-curvature="0"
+     id="imagebot_7"
+     d="m 115.1047,125.67061 c 8.24018,3.17973 13.0776,10.99781 10.8046,17.46226 -2.27301,6.46444 -10.79565,9.12713 -19.03583,5.9474 -8.240173,-3.17973 -13.077603,-10.99781 -10.804597,-17.46226 2.273006,-6.46444 10.795647,-9.12713 19.035827,-5.9474 z"
+     label="Calque 1" />
+  <rect
+     style="fill:#9cab9c"
+     id="imagebot_6"
+     transform="matrix(0.51334234,-0.85818392,0.86281619,0.50551777,0,0)"
+     rx="7.1403675"
+     ry="7.1404314"
+     height="8.6890383"
+     width="50.681767"
+     y="161.30089"
+     x="-110.6925"
+     label="Calque 1" />
+  <path
+     style="fill:#627162"
+     inkscape:connector-curvature="0"
+     id="imagebot_5"
+     d="m 108.27167,150.74979 c 0.9,5.37 -19.250003,36.09 -21.300003,37.88 -15.1,13.14 -17.58,27.48 -21.952,25.74 -3.962,-1.57 9.472,-13.73 11.332,-31.05 0.39,-3.6 17.93,-29.69 22.35,-36.43 1.480003,-2.27 8.870003,-0.2 9.570003,3.86 z"
+     label="Calque 1" />
+  <path
+     style="fill:#327632"
+     inkscape:connector-curvature="0"
+     id="imagebot_4"
+     d="m 56.975809,131.08199 c 0.342687,4.82677 -6.611087,9.29844 -15.531616,9.98771 -8.920528,0.68927 -16.429913,-2.66486 -16.7726,-7.49164 -0.342687,-4.82678 6.61109,-9.29845 15.531618,-9.98772 8.920529,-0.68927 16.429912,2.66487 16.772598,7.49165 z"
+     label="Calque 1" />
+  <metadata
+     id="imagebot_2">image/svg+xmlOpenclipart<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+    <cc:license
+       rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+    <dc:source>https://openclipart.org/detail/163/fer-a-souder</dc:source>
+  </cc:Work>
+  <cc:License
+     rdf:about="http://creativecommons.org/licenses/publicdomain/">
+    <cc:permits
+       rdf:resource="http://creativecommons.org/ns#Reproduction" />
+    <cc:permits
+       rdf:resource="http://creativecommons.org/ns#Distribution" />
+    <cc:permits
+       rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+  </cc:License>
+</rdf:RDF>
+</metadata>
+  <path
+     label="Calque 1"
+     d="m 181.23085,1.5041985 c 2.94224,-1.83483605 2.70616,-2.723613 3.21524,1.726936 -1.46412,-0.09119 -1.58942,1.127552 -2.47513,0.652793 -0.89177,-0.480693 -0.87201,-1.468031 -0.74011,-2.379729 z"
+     id="path4337"
+     inkscape:connector-curvature="0"
+     style="fill:#202c20"
+     sodipodi:nodetypes="cccc" />
+</svg>

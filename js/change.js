@@ -13,6 +13,44 @@ function changeImage(id, url) {
   var image_tag = document.getElementById(id);
   image_tag.attributes["xlink:href"].value = url;
   image_tag.attributes["preserveAspectRatio"].value = "meet";
+  storeImageContentForPrinting(image_tag);
+}
+
+function storeImageContentForPrinting(image_tag) {
+  var url = image_tag.attributes["xlink:href"].value;
+  if (url.startsWith("data:")) { return; };
+  httpGetAsync(url, function(data){
+    if (url != image_tag.attributes["xlink:href"].value) {
+      console.log("The image " + url + " changed.");
+      return;
+    }
+    // see https://stackoverflow.com/a/27284736/1320237
+    var blob = new Blob([data], {"type": "image/png"});
+    var reader = new FileReader();
+    reader.readAsDataURL(blob);
+    reader.onloadend = function() {
+      var base64data = reader.result;    
+      image_tag.attributes["xlink:href"].value = base64data;
+    }
+  });
+}
+
+function httpGetAsync(theUrl, callback)
+{
+  // from https://stackoverflow.com/a/4033310/1320237
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.responseType = "arraybuffer";
+  xmlHttp.onreadystatechange = function() {
+    if (xmlHttp.readyState == 4) {
+      if (xmlHttp.status == 200) {
+        callback(xmlHttp.response);
+      } else {
+        console.log("httpGetAsync: " + theUrl + " " + xmlHttp.status);
+      }
+    }
+  }
+  xmlHttp.open("GET", theUrl, true); // true for asynchronous
+  xmlHttp.send(null);
 }
 
 function changeText(id, text) {
@@ -35,7 +73,6 @@ function changeText(id, text) {
   }
 }
 
-
 function updateFromSpecification(specification) {
   for (var i = 0; i < IDS.length; i+= 1) {
     var id = IDS[i];
@@ -55,7 +92,6 @@ function updateFromSpecification(specification) {
   }
 }
 
-
 function updateFromQuery() {
   // from http://stackoverflow.com/a/1099670/1320237
   var qs = document.location.search;
@@ -70,7 +106,12 @@ function updateFromQuery() {
   }
   updateFromSpecification(specification);
 }
-window.onload = updateFromQuery;
+
+window.onload = function () {
+   updateFromQuery();
+   storeImageContentForPrinting(document.getElementById(ID_LOGO_BIG));
+   storeImageContentForPrinting(document.getElementById(ID_LOGO_SMALL));
+}
 
 // startsWith compatibility for internet explorer
 if (!String.prototype.startsWith) {

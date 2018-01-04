@@ -94,3 +94,13 @@ a {
 #footerDiv a {
   color: white;
 }
+
+.image-choice {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.image-choice img {
+  height: 1em;
+  vertical-align: middle;
+}
