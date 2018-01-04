@@ -38,10 +38,19 @@
           <p>Champion:</p><input type="text" id="text-champion" class="update" value placeholder="Alice Mentor" />
         </div>
         <div class="variable">
-          <p>Big Logo:</p><input type="text" id="logo-big" class="update" value placeholder="http://image.com/mylogo.svg" />
+          <p>Big Logo:
+            <a class="image-choice" href="javascript:changeText('logo-big', '')"><img src="img/coderdojo-logo-light-bg.png"/></a>
+            <a class="image-choice" href="javascript:changeText('logo-big', 'coderdojo-potsdam-logo-inline.png')"><img src="img/coderdojo-potsdam-logo-inline.png"/></a>
+          </p>
+          <input type="text" id="logo-big" class="update" value placeholder="http://image.com/mylogo.svg" />
         </div>
         <div class="variable">
-           <p>Logo in Medal:</p><input type="text" id="logo-small" class="update" value placeholder="http://image.com/logo-small.svg" />
+          <p>Logo in Medal:
+            <a class="image-choice" href="javascript:changeText('logo-small', '')"><img src="img/logo-small.png"/></a>
+            <a class="image-choice" href="javascript:changeText('logo-small', 'Scratchcat2.png')"><img src="img/Scratchcat2.png"/></a>
+            <a class="image-choice" href="javascript:changeText('logo-small', 'soldering.png')"><img src="img/soldering.png"/></a>
+          </p>
+          <input type="text" id="logo-small" class="update" value http="placeholder://image.com/logo-small.svg" />
         </div>
       </div>
     </div>
